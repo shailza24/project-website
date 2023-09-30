@@ -1,0 +1,126 @@
+*{
+   margin: 0%;
+   padding: 0%;
+ box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    
+}
+#page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+}
+#page,img{
+   position: relative;
+   left: 35%;
+   top: 10%;
+   width: 60%;
+  
+}
+
+#page>#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+   /* background-color: red;*/
+}
+#center-nav{
+    display: flex;
+    gap: 30px;
+    
+}
+#center-nav>a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    font-size: 17px;
+    font-weight: 700;
+    background-color:rgb(236, 239, 232); 
+    border-radius: 5px;
+}
+#nav>input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    border-style: double;
+    text-transform: uppercase;
+    background-color:rgb(214, 216, 234) ;
+
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(79, 69, 219);
+}
+#text{
+    padding: 70px 50px;
+    margin:-40px;
+    position: absolute;
+    right:110%;
+    top: 20%;
+    height: 55%;
+    width: 50%;
+    scale: 1.2;
+    
+}
+#text>h1{
+    font-size: 40px;
+    line-height: 1;
+    margin: 20px;
+}
+#text>h4{
+    margin-top: 20px;
+    color: rgb(24, 18, 18);
+    font-size: 17px;
+    font-weight: 500;
+}
+#text>h5{
+    color: rgb(79, 69, 219);
+    transform: rotate(-20deg);
+    position: absolute;
+    right: 82%;
+}
+#buttons{
+    position: relative;
+    right: 1%;
+    bottom: -10px;
+    height: 10%;
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    
+}
+#buttons>button{
+    width: 60%;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+}
+#buttons>#b1{
+    margin-left: 20px;
+    background-color:  rgb(235, 129, 123);
+}
+#buttons>#b2{
+    background-color:rgb(214, 216, 234) ;
+}
+#footer{
+    position: relative;
+    width: 40%;
+    bottom: -40px;
+    right: 65%;
+}
+ 
